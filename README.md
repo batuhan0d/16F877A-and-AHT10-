@@ -8,7 +8,9 @@ A project demonstrating how to read temperature and humidity from an AHT10 senso
 * Reads real-time relative humidity (in %).
 * Displays the data clearly on a 128x64 OLED screen.
 * Written in C and compiled with the CCS C Compiler.
-
+## Schematic
+* Below is a preview of the schematic of the circuit drawn in Proteus.
+   * **Schematic:** '[schematic.jpg]'    
 ## 💻 Software & Tools
 
 * **IDE/Compiler:** CCS C Compiler IDE (v5.025)

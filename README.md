@@ -10,7 +10,7 @@ A project demonstrating how to read temperature and humidity from an AHT10 senso
 * Written in C and compiled with the CCS C Compiler.
 ## Schematic
 * Below is a preview of the schematic of the circuit drawn in Proteus.
-   * **Schematic:** '[schematic.jpg]'    
+   * **Schematic:** ![schematic](schematic.jpg)    
 ## 💻 Software & Tools
 
 * **IDE/Compiler:** CCS C Compiler IDE (v5.025)

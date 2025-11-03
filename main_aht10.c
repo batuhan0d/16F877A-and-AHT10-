@@ -48,11 +48,11 @@ void aht10_read(float *temp, float *hum) {
     data[5] = i2c_read(0);  
     i2c_stop();
 
-    // 20-bit veri çözümleme
+    // 20-bit veri Ã§Ã¶zÃ¼mleme
     int32 raw_hum = ((int32)data[1] << 12) | ((int32)data[2] << 4) | (data[3] >> 4);
     int32 raw_temp = (((int32)data[3] & 0x0F) << 16) | ((int32)data[4] << 8) | data[5];
 
-    // Dönüşüm formülleri (Datasheet)
+    // DÃ¶nÃ¼Ã¾Ã¼m formÃ¼lleri (Datasheet)
     *hum = (raw_hum / 1048576.0) * 100.0;     
     *temp = (raw_temp / 1048576.0) * 200.0 - 50.0;
 }
@@ -95,10 +95,10 @@ void main(){
          SSD1306_GotoXY(1, 7);
          if(temperature < 30.0) {
             printf(SSD1306_PutC, "Ortam Ideal");
-            output_high(NORMAL);  // RB5 HIGH (Yeşil LED yanar)
+            output_high(NORMAL);  // RB5 HIGH (LED)
          } else {
             printf(SSD1306_PutC, "Ortam Sicak!"); 
-            output_high(SICAK);  // RB7 HIGH (Buzzer öter)
+            output_high(SICAK);  // RB7 HIGH (Buzzer)
          }
      
       }
@@ -106,3 +106,4 @@ void main(){
    }
 
 }
+

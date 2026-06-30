@@ -16,4 +16,4 @@ A project demonstrating how to read temperature and humidity from an AHT10 senso
 * **IDE/Compiler:** CCS C Compiler IDE (v5.025)
 * **Libraries:**
     * **SSD1306 OLED Driver:** This project uses a third-party SSD1306 driver library.
-    * **Source:** The library was obtained from (http://simple-circuit.com/). The original library files are included in this repository.
+    * **Source:** The library was obtained from (http://simple-circuit.com/). The original library files are included in this web site.

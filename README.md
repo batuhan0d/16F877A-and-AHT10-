@@ -1,4 +1,9 @@
 # PIC16F877A with AHT10 & OLED
+![Microcontroller](https://img.shields.io/badge/MCU-PIC16F877A-blue?style=flat-square&logo=microchip&logoColor=white)
+![Compiler](https://img.shields.io/badge/Compiler-CCS%20C-darkred?style=flat-square)
+![Language](https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white)
+![Simulation](https://img.shields.io/badge/Simulation-Proteus-009639?style=flat-square)
+![Protocol](https://img.shields.io/badge/Protocol-I2C-orange?style=flat-square)
 
 A project demonstrating how to read temperature and humidity from an AHT10 sensor using a PIC16F877A and display the results on an I2C OLED display. This project is written in C for the **CCS C Compiler**.
 
